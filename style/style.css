@@ -110,9 +110,23 @@ body {
     display: flex;
     justify-content: center;
     gap: 160px;
+    color: #272727;
 
 }
 
+/* optional section */
+
+.optinal{
+    display: flex;
+    justify-content: center;
+    padding-right: 300px;
+    padding-left: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.optional-icon .optional-text >p{
+    gap: 100px;
+}
 .hot-deal {
   display: flex;
   background-color: rgba(229, 84, 115, 0.344);
