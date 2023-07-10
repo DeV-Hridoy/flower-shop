@@ -93,7 +93,8 @@ body {
   font-size: 12px;
   font-weight: 20px;
   padding-bottom: 15px;
-
+  padding-right: 450px;
+  padding-left: 450px;
 }
 
 .insta-pics {
@@ -105,3 +106,28 @@ body {
   padding-bottom: 50px;
 }
 /* footer section */
+
+.footer {
+  background-color: #111010;
+  text-align: center;
+}
+.footer-title{
+    padding-top: 50px;
+}
+.shop {
+  color: #ffffff;
+}
+.footer-des {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 12px;
+  font-weight: 200;
+  padding-left: 450px;
+  padding-right: 450px;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+font-size: 9px;
+font-weight: 100;
+padding-top: 5px;
+padding-bottom: 70px;
+}
