@@ -9,6 +9,7 @@ body {
 .banner {
   display: flex;
   background-color: rgba(229, 84, 115, 0.394);
+
 }
 
 .banner-content {
@@ -43,16 +44,79 @@ body {
   width: 455px;
   height: 525px;
   padding-right: 170px;
-  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 /* main section */
+
+/* bonus section */
+#bonus {
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+.bonus {
+  text-align: center;
+}
+.bonus-title {
+  color: #272727;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.bonus-des {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 10px;
+  font-weight: 200;
+  padding-left: 500px;
+  padding-right: 500px;
+  margin-bottom: 20px;
+}
+
+.bonus-pics {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+
+}
+.bonus-img img {
+  width: 150px;
+  height: 199px;
+  padding-bottom: 0px;
+  padding-left: 30px;
+}
+
+.bonus-pics #bimg1 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  width: 199px;
+  height: 200px;
+}
+
+.bonus-pics #bimg2 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  width: 199px;
+  height: 200px;
+}
+
+.bonus-pics #bimg3 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  width: 199px;
+  height: 200px;
+}
+
+.bonus-underline-text{
+    display: flex;
+    justify-content: center;
+    gap: 160px;
+
+}
 
 .hot-deal {
   display: flex;
   background-color: rgba(229, 84, 115, 0.344);
   margin-top: 70px;
-
 }
 .hot-description {
   text-align: center;
@@ -80,8 +144,8 @@ body {
   padding-top: 70px;
   padding-bottom: 80px;
 }
-#instagram{
-    margin-top: auto;
+#instagram {
+  margin-top: auto;
 }
 .insta-description {
   text-align: center;
@@ -137,19 +201,18 @@ body {
   font-weight: 200;
 }
 
-.form input[type="text"]{
-    width: 400px;
-    height: 25px;
-    border: none;
-    color: rgba(39, 39, 39, 0.60);
+.form input[type="text"] {
+  width: 400px;
+  height: 25px;
+  border: none;
+  color: rgba(39, 39, 39, 0.6);
 }
-.form .btn-primary{
-    border-radius: 8px;
-    background-color: #e55473;
-    color: white;
-    padding: 8px 15px;
-    border: 0;
-    
+.form .btn-primary {
+  border-radius: 8px;
+  background-color: #e55473;
+  color: white;
+  padding: 8px 15px;
+  border: 0;
 }
 /* footer section */
 
