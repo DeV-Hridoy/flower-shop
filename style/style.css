@@ -113,8 +113,7 @@ body {
 }
 
 /* optional section */
-#optional{
-
+#optional {
   border-radius: 8px;
   background-color: rgba(39, 39, 39, 0.05);
   height: 250px;
@@ -247,7 +246,7 @@ body {
 
 /* bonus section done by me */
 
-.bonus-form{
+.bonus-form {
   justify-content: center;
   text-align: center;
   background-image: url("banner2.png");
@@ -261,7 +260,7 @@ body {
   padding-bottom: 20px;
 }
 
-.bonus-form-text{
+.bonus-form-text {
   color: rgba(39, 39, 39, 0.801);
   padding-top: 60px;
   padding-bottom: 30px;
@@ -270,20 +269,20 @@ body {
 .contact input[type="email"],
 .contact input[type="tel"],
 textarea {
-  margin-bottom: 25px;;
+  margin-bottom: 25px;
   color: #757575;
   padding: 10px 20px;
   border: 0;
   border-radius: 5px;
   background-color: #fff;
 }
-label{
+label {
   color: #272727;
   font-size: 15px;
   font-weight: 200;
 }
 
-.contact input[type="button"]{
+.contact input[type="button"] {
   border-radius: 8px;
   background-color: #e55473;
   color: white;
