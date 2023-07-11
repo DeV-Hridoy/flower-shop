@@ -209,7 +209,7 @@ body {
   height: 300px;
   text-align: center;
   /* justify-content: center; */
-  background-image: url("/assets/Rectangle9.png");
+  background-image: url("/Rectangle9.png");
   /* padding-bottom: 100px; */
   background-repeat: no-repeat;
   border-radius: 8px;
@@ -250,7 +250,7 @@ body {
 .bonus-form{
   justify-content: center;
   text-align: center;
-  background-image: url("/assets/banner2.png");
+  background-image: url("/banner2.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
